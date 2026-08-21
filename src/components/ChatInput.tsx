@@ -20,6 +20,7 @@ export default function ChatInput({ onSend, disabled }: Props) {
     }
   }
 
+  // Handle multiple button commands
   function handleKeyDown(e: KeyboardEvent<HTMLTextAreaElement>) {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
