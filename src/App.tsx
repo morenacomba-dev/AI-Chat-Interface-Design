@@ -5,7 +5,7 @@ import TypingIndicator from '@/components/TypingIndicator';
 import ChatInput from '@/components/ChatInput';
 import EmptyState from '@/components/EmptyState';
 import { supabase, type Conversation, type Message } from '@/lib/supabase';
-
+// Respuestas de IA
 const AI_RESPONSES = [
   "That's a fascinating question! Let me think through this carefully. The topic you've raised touches on several interconnected ideas that are worth exploring in depth.",
   "Great point! I'd approach this by breaking it down into smaller, manageable parts. First, let's consider the core concept, then we can build on it.",
